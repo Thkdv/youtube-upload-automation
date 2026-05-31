@@ -87,6 +87,11 @@ def get_authenticated_credentials():
 
 # 3. SCHEDULE SCHEMING EXECUTION
 if __name__ == "__main__":
+    #CONFIGURATION NOTE: This automation engine requires a 'client_secret.json' file 
+    # generated from the Google Cloud Console to establish secure API handshakes.
+    # For security reasons, this file is excluded from GitHub. Authorized users 
+    # must obtain their own client secrets or request access credentials directly from the me (developer).
+    
     # Authenticate with Google Cloud
     creds = get_authenticated_credentials()
     engine = AutomationEngine(credentials=creds)

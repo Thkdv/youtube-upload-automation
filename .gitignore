@@ -1,0 +1,10 @@
+# For Security
+
+# Google API Secrets & Tokens
+client_secret.json
+token.pickle
+
+# Python environment files
+__pycache__/
+*.pyc
+.env
